@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // Especifica el estándar de JavaScript al que se compilará el código
+    "module": "commonjs", // Especifica el sistema de módulos
+    "rootDir": "./src", // Carpeta raíz de tu código TypeScript
+    "outDir": "./dist", // Carpeta donde se guardará el código compilado
+    "strict": true, // Habilita todas las comprobaciones estrictas de tipo
+    "esModuleInterop": true, // Habilita la interoperabilidad de módulos ES
+    "skipLibCheck": true, // Omite la verificación de tipos en los archivos de declaración de tipo
+    "forceConsistentCasingInFileNames": true // Asegura un uso consistente de mayúsculas y minúsculas en los nombres de archivo                               /* Skip type checking all .d.ts files. */
+  },
+  "include": ["src"], // Archivos que deben incluirse en la compilación
+  "exclude": ["node_modules", "dist"] // Archivos y carpetas que deben excluirse de la compilación
+}
